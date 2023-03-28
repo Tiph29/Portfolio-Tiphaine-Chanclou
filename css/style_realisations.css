@@ -1,0 +1,236 @@
+header {
+    background-image: url('../img/vague haut.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 7rem;
+    /* height: 10vh;
+    background-color: #D97981;
+    justify-content: center; */
+}
+
+
+h1 {
+    display: flex;
+    align-self: center;
+
+}
+
+.fleche {
+    position: absolute;
+    padding: 1.2rem;
+}
+
+#fleche_retour {
+    height: 6vh;
+    padding: 0.5rem;
+}
+
+#fleche_retour:hover {
+    background-color: #E9A9A7;
+    padding: 0.5rem;
+    border-radius: 100px;
+}
+
+/* #fleche_retour:hover{
+    color: #FFF7E7;
+    opacity: 30%;
+    border-radius: 100%;
+} */
+
+#faites-du-num1 {
+    max-height: 70vh;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    width: fit-content;
+}
+
+#faites-du-num3 {
+    max-height: 70vh;
+    margin: 4rem;
+    width: fit-content;
+}
+
+#faites-du-num2 {
+    height: 35vh;
+}
+
+#flyers {
+    margin-top: 4rem;
+}
+
+.le_projet {
+    display: flex;
+    flex-direction: row;
+}
+
+#texte_description {
+    margin: 6rem;
+    justify-content: center;
+}
+
+p {
+    line-height: 150%;
+}
+
+#journal {
+    max-width: 20vw;
+    margin-left: 10vw;
+    margin-top: 3vh;
+}
+
+.descri_photo {
+    font-size: small;
+    max-width: 20vw;
+    margin-left: 10vw;
+}
+
+.autres {
+    max-height: 30vh;
+    margin-right: 2rem;
+}
+
+h2 {
+    margin-top: 2rem;
+}
+
+
+/* fleurs qui tournent */
+
+.flower {
+    width: 3rem;
+    height: 1rem;
+    background: #D97981;
+    border-radius: 50px;
+    margin-top: 200px;
+}
+
+.flower::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 3rem;
+    height: 1rem;
+    background: #D97981;
+    border-radius: 50px;
+    transform: rotate(60deg)
+}
+
+.flower::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 3rem;
+    height: 1rem;
+    background: #D97981;
+    border-radius: 50px;
+    transform: rotate(-60deg)
+}
+
+
+.flower2 {
+    width: 3rem;
+    height: 1rem;
+    background: #D97981;
+    border-radius: 50px;
+    margin-top: 100px;
+    margin-left: 5rem;
+}
+
+.flower2::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 3rem;
+    height: 1rem;
+    background: #D97981;
+    border-radius: 50px;
+    transform: rotate(60deg)
+}
+
+.flower2::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 3rem;
+    height: 1rem;
+    background: #D97981;
+    border-radius: 50px;
+    transform: rotate(-60deg)
+}
+
+.flower3 {
+    width: 3rem;
+    height: 1rem;
+    background: #D97981;
+    border-radius: 50px;
+    margin-top: 3.5rem;
+    margin-left: 30rem;
+}
+
+.flower3::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 3rem;
+    height: 1rem;
+    background: #D97981;
+    border-radius: 50px;
+    transform: rotate(60deg)
+}
+
+.flower3::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 3rem;
+    height: 1rem;
+    background: #D97981;
+    border-radius: 50px;
+    transform: rotate(-60deg)
+}
+
+
+/* animation des fleurs  */
+.flower {
+    animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+
+.flower2 {
+    animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+.flower3 {
+    animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
